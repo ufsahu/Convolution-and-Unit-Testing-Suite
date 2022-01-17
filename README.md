@@ -1,4 +1,4 @@
-# Tests_Convo repo
+# Project FitOptiVis
 
 In progress  
 
