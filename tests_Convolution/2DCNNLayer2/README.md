@@ -17,3 +17,10 @@ This 2D convolution calculation and comparison makes a 2-Layered neural network 
 
 
 The process of using input 2Ddata for 2D convolution, convolving, verifying and providing it as input data to another layer, further giving and validating the output makes the test behave as of a double layer in CNN
+
+The test can be run by
+
+    make clean all run
+
+
+After verifying, it prints a pass or fail for each element
