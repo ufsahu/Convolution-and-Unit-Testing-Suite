@@ -13,6 +13,6 @@ Overall in the study project, image processing accelerators were being developed
 
 The unit testing suite was developed based on the limitations present in the system for the first chip design. Major limitations included the printf function not printing variable datatypes and the system being unable to handle larger input matrix data.
 
-Unit test cases provided as testing strategy that did not put stress on the system and contributed in verifying RISC-V based instructions.
+Unit test cases provided as a testing strategy that did not put stress on the system and contributed in verifying RISC-V based instructions.
 
 The second chip design did not consist of the mentioned limitations and the convolution tests were well suited in that testing environment. 
