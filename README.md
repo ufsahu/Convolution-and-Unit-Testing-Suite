@@ -11,7 +11,7 @@ The convolution testing suite consists of test cases based on certain deep learn
 
 Overall in the study project, image processing accelerators were being developed and this convolution suite comprises of similar functions implemented in software, providing performance comparisons and a way to test the correctness of the results.
 
-The unit testing suite was developed based on the limitations present in the system for the first chip design. Major limitations included the printf function not printing variable datatypes and the system being unable to handle larger input matrix data.
+The unit testing suite was also developed using C and it based on the limitations present in the system for the first chip design. Major limitations included the printf function not printing variable datatypes and the system being unable to handle larger input matrix data.
 
 Unit test cases provided as a testing strategy that did not put stress on the system and contributed in verifying RISC-V based instructions.
 
