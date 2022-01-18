@@ -5,7 +5,6 @@
 
 //verifying 'or' instruction (R-Format)
 //verifying variable values before and after Inline asm block 
-//using Sirpa's printf solution
 
 
 
