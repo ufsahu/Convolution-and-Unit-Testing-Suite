@@ -1,9 +1,5 @@
 # Unit Test Cases
 
-In progress  
+For overcoming the limitations of printf function not working and 32bit datatype only being verified, unit test cases were developed.
 
-The tests can be run by
-
-		make clean all run
-
-For each output element, the test checks if the answer is correct or not. After verifying, it prints a pass or fail for each element
+For checking RISC-V instructions, these developed unit test cases are based on the RISC-V inlime assembly in C.
