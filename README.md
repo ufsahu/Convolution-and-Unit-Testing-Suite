@@ -1,4 +1,4 @@
-# Project FitOptiVis
+# Convolution and Unit Testing Suite
 
 In progress  
 
