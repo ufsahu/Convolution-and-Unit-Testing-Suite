@@ -5,7 +5,6 @@
 
 //verifying 'xor' instruction (R-Format)
 //verifying variable values before and after Inline asm block 
-//using Sirpa's printf solution
 
 
 void print32_hex(uint32_t number)
