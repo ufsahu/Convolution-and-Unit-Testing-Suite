@@ -54,7 +54,7 @@ int main()
   printf("Input value_1 =  0x00000000\n");
   printf("Input value_2 =  0x00000001\n");
   printf("XOR operation performed on above values and stored in variable var_xor \n");
-  printf("Printing Output var_xor with Sirpa's solution: \n");
+  printf("Printing Output var_xor \n");
   print32_hex(var_xor);
   printf("\n"); 
 
