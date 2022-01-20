@@ -53,7 +53,7 @@ int main()
     );
   printf("End after asm block 6\n");
 
-  printf("Printing Output var_or = 0 . 1: using Sirpa's printf solution\n");
+  printf("Printing Output var_or = 0 . 1: \n");
   print32_hex(var_or);
   printf("\n"); 
 
