@@ -51,7 +51,7 @@ int main()
     );
   printf("End after asm block\n ");
 
-  printf("Printing Output var_add = 2 + 1: using Sirpa's printf solution \n");
+  printf("Printing Output var_add = 2 + 1:  \n");
   print32_hex(var_add);
   printf("\n"); 
 
