@@ -6,23 +6,7 @@
 //verifying 'sub' instruction (R-Format)
 //verifying variable values before and after Inline asm block 
 
-void print32_hex(uint32_t number)
 
-{
-  int k;
-  int ch;
-
-  for (k = 0; k < 8; k++)
-  {
-    ch = (number & 0xF0000000) >> 28; // Shift most significant 4 bits to low 4 bits
-    if (ch < 10)
-      ch = ch + '0';                  // If ch = 0 - 9, add ascii '0'
-    else
-      ch = ch + 'A' - 10;             // If ch = A - F, add ascii 'A' - 10
-    putchar (ch);
-    number = number << 4;          // Shift next 4 bits to MS bits
-  }
-}
 
 
 
@@ -53,9 +37,7 @@ int main()
   printf("Input value_1 =  0x00000002\n");
   printf("Input value_2 =  0x00000001\n");
   printf("Subtracting value_2 from value_1 and stored in variable var_sub \n");
-  printf("Printing Output var_sub = 2 - 1  \n");
-  print32_hex(var_sub);
-  printf("\n"); 
+  
 
 if(var_sub==1){
 	printf("Pass for sub instruction var_sub == 1\n");
