@@ -55,7 +55,7 @@ int main()
  printf("Input value1 =  0x00000001\n");
  printf("Input value2 =  0x00000002\n");
  
-  printf("Printing Output var_mul = 2 x 1: using Sirpa's printf solution\n");
+  printf("Printing Output var_mul = 2 x 1: \n");
   print32_hex(var_mul);
   printf("\n"); 
 
