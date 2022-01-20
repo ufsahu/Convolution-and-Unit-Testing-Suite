@@ -6,23 +6,7 @@
 //verifying 'add' instruction (R-Format)
 //verifying variable values before and after Inline asm block 
 
-void print32_hex(uint32_t number)
 
-{
-  int k;
-  int ch;
-
-  for (k = 0; k < 8; k++)
-  {
-    ch = (number & 0xF0000000) >> 28; // Shift most significant 4 bits to low 4 bits
-    if (ch < 10)
-      ch = ch + '0';                  // If ch = 0 - 9, add ascii '0'
-    else
-      ch = ch + 'A' - 10;             // If ch = A - F, add ascii 'A' - 10
-    putchar (ch);
-    number = number << 4;          // Shift next 4 bits to MS bits
-  }
-}
 
 
 
@@ -51,9 +35,7 @@ int main()
     );
   printf("End after asm block\n ");
 
-  printf("Printing Output var_add = 2 + 1:  \n");
-  print32_hex(var_add);
-  printf("\n"); 
+  
 
 if(var_add==3){
 	printf("Pass for add instruction var_add == 3\n");
