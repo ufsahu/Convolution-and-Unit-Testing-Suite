@@ -53,7 +53,7 @@ int main()
   printf("Input value_1 =  0x00000002\n");
   printf("Input value_2 =  0x00000001\n");
   printf("Subtracting value_2 from value_1 and stored in variable var_sub \n");
-  printf("Printing Output var_sub = 2 - 1 using Sirpa's printf solution:  \n");
+  printf("Printing Output var_sub = 2 - 1  \n");
   print32_hex(var_sub);
   printf("\n"); 
 
